@@ -97,8 +97,8 @@ namespace MVVM__LAB11.ViewModels
         #region Comandos
             public ICommand Sumar { protected set; get; }
             public ICommand Restar { protected set; get; }
-            public Command Multiplicar { protected set; get; }
-            public Command Dividir { protected set; get; }
+            public ICommand Multiplicar { protected set; get; }
+            public ICommand Dividir { protected set; get; } 
         #endregion
 
         #region Constructor
